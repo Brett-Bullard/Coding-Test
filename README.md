@@ -8,6 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 To run the app without tests you will need a linux, windows, or mac machine with the latest version of docker installed. 
+You will also need working internet access.
 
 To run the tests for this project, you will need the dotnet core 2.0 SDK installed. https://www.microsoft.com/net/download/macos
 
@@ -17,6 +18,8 @@ In the directory of this readmefile (root directory of repo) run the following d
 Then to run the app do : 
 2.) docker run -d -p 8080:80 --name nameyouwant skynet.codingtest.api
 You can replace 8080 with another free port and 'nameyouwant' with a name you would like for the image 
+3.) After this, you should be able to naviagate to localhost:{port you chose}/swagger to view the documentation
+on the app.
 
 
 ## Running the tests
