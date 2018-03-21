@@ -12,7 +12,7 @@ To run the app without tests you will need a linux, windows, or mac machine with
 To run the tests for this project, you will need the dotnet core 2.0 SDK installed. https://www.microsoft.com/net/download/macos
 
 ### Installing
-In the directory of this readmefile (in the CodingTest folder) run the following docker command. 
+In the directory of this readmefile (root directory of repo) run the following docker command. 
 1.) docker build -t skynet.codingtest.api  -f Api/Dockerfile .
 Then to run the app do : 
 2.) docker run -d -p 8080:80 --name nameyouwant skynet.codingtest.api
